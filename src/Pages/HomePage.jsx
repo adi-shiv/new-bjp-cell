@@ -12,7 +12,6 @@ function HomePage() {
      <Header />
      <HeroCarousel />
      <Main />
-     
      <WhoWeAre />
      <Footer />
 
