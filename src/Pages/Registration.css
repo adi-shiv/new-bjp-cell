@@ -1,0 +1,57 @@
+.adi {
+  width: 80%;
+  height: 600px;
+  border: 2px double orange;
+  margin: 20px auto;
+  
+}
+
+h2 {
+  text-align: center;
+  color: orange;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+form{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+label {
+  width: 150px;
+  display: inline-block;
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+ right: 20px;
+}
+
+input {
+  border: none;
+  width: 200px;
+  outline: none;
+}
+
+.new {
+  border: none;
+  outline: none;
+  background-color: orange;
+  width: 40%;
+  font-size: 20px;
+}
+textarea {
+  border: none;
+  outline: none;
+}
+
+/* #ad {
+  right: 10rem;
+  top: 6rem;
+}
+#ani {
+  right: 15rem;
+  top: 24rem;
+} */
