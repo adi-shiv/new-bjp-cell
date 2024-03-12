@@ -1,17 +1,17 @@
 import "./App.css";
 import HomePage from "./Pages/HomePage";
-import { BrowserRouter,Routes,Route } from "react-router-dom";
+import { Routes,Route, HashRouter } from "react-router-dom";
 import Registration from "./Pages/Registration";
 
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
       <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/Registration" element={<Registration />} />
       </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
