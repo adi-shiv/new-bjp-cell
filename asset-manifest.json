@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/new-bjp-cell/static/css/main.a4d7a346.css",
+    "main.css": "/new-bjp-cell/static/css/main.728bb947.css",
     "main.js": "/new-bjp-cell/static/js/main.aa9e362b.js",
     "static/js/239.081d5bf5.chunk.js": "/new-bjp-cell/static/js/239.081d5bf5.chunk.js",
     "static/js/213.9e25de55.chunk.js": "/new-bjp-cell/static/js/213.9e25de55.chunk.js",
@@ -14,7 +14,7 @@
     "static/media/download.jpg": "/new-bjp-cell/static/media/download.271f5b825da57679ea98.jpg",
     "static/media/sign.png": "/new-bjp-cell/static/media/sign.6445c6f2d11b6c222f2f.png",
     "index.html": "/new-bjp-cell/index.html",
-    "main.a4d7a346.css.map": "/new-bjp-cell/static/css/main.a4d7a346.css.map",
+    "main.728bb947.css.map": "/new-bjp-cell/static/css/main.728bb947.css.map",
     "main.aa9e362b.js.map": "/new-bjp-cell/static/js/main.aa9e362b.js.map",
     "239.081d5bf5.chunk.js.map": "/new-bjp-cell/static/js/239.081d5bf5.chunk.js.map",
     "213.9e25de55.chunk.js.map": "/new-bjp-cell/static/js/213.9e25de55.chunk.js.map",
@@ -22,7 +22,7 @@
     "453.ce944235.chunk.js.map": "/new-bjp-cell/static/js/453.ce944235.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4d7a346.css",
+    "static/css/main.728bb947.css",
     "static/js/main.aa9e362b.js"
   ]
 }
