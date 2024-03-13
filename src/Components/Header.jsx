@@ -17,7 +17,7 @@ function Header() {
         <div class="logo-heading">BJP Engineer's Cell, Solapur District</div>
 
         <button id="Regi">
-          <Link to="/CertificateGenerator" style={linkStyle} >Registration</Link>
+          <Link to="/Registration" style={linkStyle} >Registration</Link>
         </button>
       </div>
     </div>

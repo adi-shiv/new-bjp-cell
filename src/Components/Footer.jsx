@@ -1,4 +1,8 @@
 import React from "react";
+// import { FaInstagram, FaFacebook, FaTwitter } from "react-icons/fa";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 function Footer() {
   return (
@@ -8,9 +12,11 @@ function Footer() {
           <div className="quick_links">
             <h4>About Us</h4>
             <p>
-              Lorem ipsum dolor, sit amet consectetur <br /> adipisicing elit.
+              Lorem ipsum dolor, sit amet
+              <br /> consectetur adipisicing elit. <br />
               Repellendus doloremque <br />
-              laborum porro accusantium suscipit ea <br /> tempora accusamus
+              laborum porro accusantium <br /> suscipit ea tempora accusamus{" "}
+              <br />
               atque deserunt sint, <br /> cum corporis <br /> tenetur corrupti
               molestias hic <br /> adipisci nihil non quibusdam.
             </p>
@@ -19,8 +25,8 @@ function Footer() {
           <div className="high_school">
             <h4>Address</h4>
             <p>
-              <i className="ri-map-pin-2-fill"></i> 100, modi 
-              Nagar, Near Solapur , Solapur-413002, Maharashtra.
+              <i className="ri-map-pin-2-fill"></i>100, modi Nagar, Near Solapur
+              , Solapur-413002, Maharashtra.
             </p>
           </div>
 
@@ -40,23 +46,26 @@ function Footer() {
             </p>
           </div>
 
-          <div className="quick_links">
-            <h4>Quick Links</h4>
-            <p>
-              <a href="/">Home</a>
-            </p>
-            <p>
-              <a href="/about">About Us</a>
-            </p>
-            <p>
-              <a href="/services">Our Services</a>
-            </p>
-            <p>
-              <a href="/contact">Contact</a>
-            </p>
-            <p>
-              <a href="/career">Career</a>
-            </p>
+          <div className="quick">
+            <h4>Stay Connect</h4>
+            <form>
+              <input type="email" placeholder="Email address" required />
+              <br /> <br />
+              <button id="tn">Submit</button>
+            </form>
+
+            <div className="socials">
+              <a href="/">
+                <i class="ri-twitter-x-line"></i>
+              </a>
+              <a href="/">
+                <i class="ri-whatsapp-fill"></i>
+              </a>
+              <a href="/">
+                <i class="ri-instagram-fill"></i>
+              </a>
+             
+            </div>
           </div>
         </div>
 

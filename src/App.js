@@ -1,10 +1,8 @@
 import "./App.css";
 import HomePage from "./Pages/HomePage";
 import { Routes,Route, HashRouter } from "react-router-dom";
-// import Registration from "./Pages/Registration";
-// import { Modal } from "react-bootstrap";
-// import Modal from './Components/Modal';
-import CertificateGenerator from "./Pages/CertificateGenerator";
+import Registration from "./Pages/Registration";
+
 
 function App() {
   return (
@@ -12,7 +10,7 @@ function App() {
       <HashRouter>
       <Routes>
       <Route path="/" element={<HomePage />} />
-      <Route path="/CertificateGenerator" element={<CertificateGenerator />} />
+      <Route path="/Registration" element={<Registration />} />
       </Routes>
       </HashRouter>
     </div>

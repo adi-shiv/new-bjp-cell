@@ -10,7 +10,6 @@ html {
   overflow-x: hidden;
 }
 
-
 .header {
   width: 100%;
   height: 11vmin;
@@ -54,7 +53,7 @@ html {
   background-color: #eb8f17;
   border: none;
   outline: none;
-  color: #FFFFFF;;
+  color: #ffffff;
   cursor: pointer;
   margin: auto 50px;
   text-decoration: none;
@@ -87,8 +86,6 @@ html {
     color: #f87f0e;
     cursor: pointer;
     margin: auto 2px;
-   
-   
   }
 
   .header .logo {
@@ -97,17 +94,16 @@ html {
     padding: 1vmin;
     border-radius: 2px;
     left: 1rem;
-    
   }
-  
+
   .logo > img {
     object-fit: cover;
     height: 3rem;
     margin: 0 0px;
-    
+
     border-radius: 4rem;
   }
-  
+
   .logo-heading {
     left: 1rem;
     color: #e97f15;
@@ -119,11 +115,10 @@ html {
   }
 }
 
-
 /* footer start */
 
 .footer .pre_footer {
-  padding: 8vmin 12vmin 6vmin 12vmin;
+  padding: 8vmin 10vmin 6vmin 8vmin;
   /* background-color: var(--secondary); */
   background-color: #f3bf4f;
   display: flex;
@@ -136,12 +131,14 @@ html {
 .footer .pre_footer h4 {
   color: black;
   margin-bottom: 2vmin;
-  font-size: 4vmin;
-  letter-spacing: 0.5px;
+  font-size: 3vmin;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  text-align: start;
 }
 
 .footer .pre_footer p {
-  color:black;
+  color: black;
   margin: 0 0 0.5vmin 0;
   letter-spacing: 0.5px;
 }
@@ -193,6 +190,57 @@ html {
 .footer .main_footer p a {
   text-decoration: none;
   color: var(--theme);
+}
+
+.footer .pre_footer form {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.footer .pre_footer form #tn {
+  background-color: #e97f15;
+  width: 80%;
+  height: 30px;
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: auto;
+}
+
+.footer .pre_footer form input {
+  height: 30px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  right: 10px;
+}
+
+.footer .pre_footer .socials {
+  width: 35vmin;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* align-items: center; */
+  align-content: center;
+  background-color: none;
+  transition: all 0.3s;
+  margin: auto 10px;
+}
+
+.footer .pre_footer .socials a {
+  text-decoration: none;
+  color: #f7f5f5;
+  font-size: 5vmin;
+  color: rgb(26, 25, 25);
+}
+
+.footer .pre_footer .socials a i {
+  transition: all 0.3s;
+}
+
+.footer .pre_footer .socials a i:hover {
+  color: #ec7504;
 }
 
 /* ====== Media Quries ====== */
@@ -310,7 +358,7 @@ html {
   text-align: justify;
 }
 
-.know-btn{
+.know-btn {
   right: 20rem;
   top: 30rem;
   border: none;
@@ -320,7 +368,6 @@ html {
   height: 40px;
   color: #fff;
   font-size: 17px;
-
 }
 
 /* .whychooseus_container .read_more_btn a {
@@ -469,52 +516,44 @@ html {
 
 /* Media Queris - Start */
 
-
-  @media only screen and (max-width: 700px) {
-    .whoweare_container {
-      padding: 10vmin 7vmin 5vmin 7vmin;
-      flex-direction: column;
-    }
-
-    .whoweare_container .whoweare_content {
-      margin-right: 0;
-    }
-
-    .whoweare_container .whoweare_content h1 {
-      text-align: center;
-      font-size: 8vmin;
-      margin-bottom: 4vmin;
-      
-    }
-
-    .whoweare_container .whoweare_content p {
-      letter-spacing: 0.1px;
-      font-size: 3vmin;
-      font-weight: 400;
-      text-align: justify;
-    }
-
-    .whoweare_container .whoweare_content .know_more_btn a {
-      border-radius: 1px;
-      width: 13vmax;
-      margin: 6vmin auto 0 auto;
-      font-size: 3.5vmin;
-      padding: 2vmin 0vmin;
-    }
-
-    .whoweare_container .whoweare_image img {
-      width: 30vw;
-      border-radius: 3px;
-
-      width: 40vmax;
-      margin: 8vmin 0;
-    }
+@media only screen and (max-width: 700px) {
+  .whoweare_container {
+    padding: 10vmin 7vmin 5vmin 7vmin;
+    flex-direction: column;
   }
 
+  .whoweare_container .whoweare_content {
+    margin-right: 0;
+  }
 
-  /* <-- Registration--> */
+  .whoweare_container .whoweare_content h1 {
+    text-align: center;
+    font-size: 8vmin;
+    margin-bottom: 4vmin;
+  }
 
-  
+  .whoweare_container .whoweare_content p {
+    letter-spacing: 0.1px;
+    font-size: 3vmin;
+    font-weight: 400;
+    text-align: justify;
+  }
 
- 
-  
+  .whoweare_container .whoweare_content .know_more_btn a {
+    border-radius: 1px;
+    width: 13vmax;
+    margin: 6vmin auto 0 auto;
+    font-size: 3.5vmin;
+    padding: 2vmin 0vmin;
+  }
+
+  .whoweare_container .whoweare_image img {
+    width: 30vw;
+    border-radius: 3px;
+
+    width: 40vmax;
+    margin: 8vmin 0;
+  }
+}
+
+/* <-- Registration--> */

@@ -18,7 +18,7 @@ function Main() {
           data-aos="zoom-in"
           data-aos-duration="1000"
         >
-          <i class="fa-solid fa-code"></i>
+          {/* <i class="fa-solid fa-code"></i> */}
         </div>
         <div
           className="whychooseus_content_text"
@@ -42,7 +42,7 @@ function Main() {
           data-aos="zoom-in"
           data-aos-duration="1000"
         >
-          <i class="fa-solid fa-person-chalkboard"></i>
+          {/* <i class="fa-solid fa-person-chalkboard"></i> */}
         </div>
         <div
           className="whychooseus_content_text"

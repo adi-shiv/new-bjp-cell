@@ -1,33 +1,53 @@
 import React  from "react";
-// import ad from "../../images/logo.png";
-// import ani from "../../images/sign.png";
+import ad from '../images/images/logo.png'
+import ani from "../images/images/sign.png";
 import './Registration.css';
+import { jsPDF } from "jspdf";
 
 function Registration() {
+
+  const jspdf = new jsPDF ('p','pt','letter')
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    const val = e.target.adi.valve;
+
+    const data = {
+      callback:function(jspdf){
+        jspdf.save('demo.pdf')
+      },
+      margin:[10,10,10,10],
+    }
+    jspdf.html(val,data)
+  }
+
  
   return (
     <>
-      <div className="adi">
+      <div className="adi" name="adi">
+       
+        <form onSubmit={(e)=>handleSubmit(e)} >
+           
         <h2>MEMBERSHIP ID</h2>
-        <form>
-          <label>Name:</label>
+
+          <label >Name:</label>
           <input type="text" id="Name" name="Name" required />
           <br />
 
           <label>Number:</label>
-          <input type="Phone Number" id="Phone Number" name="Phone Number" required />
+          <input type="phoneNumber" id="Phone Number" name="Phone Number" required />
           <br />
           <label>Email:</label>
           <input type="email" id="email" name="email" required />
           <br />
           <label>Age:</label>
-          <input type="Number" id="Number" name="Number" required />
+          <input type="number" id="Number" name="Number" required />
           <br />
           <label>Qualification:</label>
           <input type="text" id="text" name="text" required />
           <br />
           <label>Address:</label>
-          <textarea name="Address" id="Address" cols="30" rows="1"></textarea>
+          <textarea type='address' name="Address" id="Address" cols="30" rows="1"></textarea>
            
            <br />
           <div>
@@ -37,12 +57,12 @@ function Registration() {
           </div>
         </form>
 
-        {/* <div id='ad'>
-          <img src={ad}  />
+        <div id='ad'>
+          <img src={ad} alt="" />
         </div>
         <div id="ani" >
-          <img src={ani}  />
-        </div> */}
+          <img src={ani} alt="" />
+        </div>
       </div>
     </>
   );
