@@ -295,6 +295,35 @@ html {
     padding: 2.5vmin 5vmin;
     font-size: 3vmin;
   }
+  .footer .pre_footer .socials {
+    width: 35vmin;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: none;
+    transition: all 0.3s;
+    margin: auto 50px;
+  }
+
+  .footer .pre_footer .socials a {
+    text-decoration: none;
+    color: #FFFFFF;
+    color: rgb(15, 15, 15);
+
+    font-size: 6vmin;
+  }
+
+  .footer .pre_footer .socials a i {
+    transition: all 0.3s;
+  }
+
+  .footer .pre_footer .socials a i:hover {
+    color: #fa9005;
+  }
+
+
 }
 
 .whychooseus_container {
