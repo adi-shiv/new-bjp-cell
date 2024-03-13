@@ -1,20 +1,28 @@
 {
   "files": {
-    "main.css": "/new-bjp-cell/static/css/main.56fe4e59.css",
-    "main.js": "/new-bjp-cell/static/js/main.18037b68.js",
-    "static/js/453.56c63e47.chunk.js": "/new-bjp-cell/static/js/453.56c63e47.chunk.js",
+    "main.css": "/new-bjp-cell/static/css/main.a12ece5c.css",
+    "main.js": "/new-bjp-cell/static/js/main.aa9e362b.js",
+    "static/js/239.081d5bf5.chunk.js": "/new-bjp-cell/static/js/239.081d5bf5.chunk.js",
+    "static/js/213.9e25de55.chunk.js": "/new-bjp-cell/static/js/213.9e25de55.chunk.js",
+    "static/js/732.b82a55b9.chunk.js": "/new-bjp-cell/static/js/732.b82a55b9.chunk.js",
+    "static/js/453.ce944235.chunk.js": "/new-bjp-cell/static/js/453.ce944235.chunk.js",
     "static/media/group (2).jpg": "/new-bjp-cell/static/media/group (2).0fca7619ffae704e316a.jpg",
     "static/media/Honble Union Home.jpg": "/new-bjp-cell/static/media/Honble Union Home.598197d409d2ae598e30.jpg",
     "static/media/know_the_pm (1).jpg": "/new-bjp-cell/static/media/know_the_pm (1).fb2ededf818e70eae990.jpg",
+    "static/media/logo.png": "/new-bjp-cell/static/media/logo.fde949753e38b0d4299d.png",
     "static/media/bjp logo.jpeg": "/new-bjp-cell/static/media/bjp logo.b45f1ae55b63206b72cc.jpeg",
     "static/media/download.jpg": "/new-bjp-cell/static/media/download.271f5b825da57679ea98.jpg",
+    "static/media/sign.png": "/new-bjp-cell/static/media/sign.6445c6f2d11b6c222f2f.png",
     "index.html": "/new-bjp-cell/index.html",
-    "main.56fe4e59.css.map": "/new-bjp-cell/static/css/main.56fe4e59.css.map",
-    "main.18037b68.js.map": "/new-bjp-cell/static/js/main.18037b68.js.map",
-    "453.56c63e47.chunk.js.map": "/new-bjp-cell/static/js/453.56c63e47.chunk.js.map"
+    "main.a12ece5c.css.map": "/new-bjp-cell/static/css/main.a12ece5c.css.map",
+    "main.aa9e362b.js.map": "/new-bjp-cell/static/js/main.aa9e362b.js.map",
+    "239.081d5bf5.chunk.js.map": "/new-bjp-cell/static/js/239.081d5bf5.chunk.js.map",
+    "213.9e25de55.chunk.js.map": "/new-bjp-cell/static/js/213.9e25de55.chunk.js.map",
+    "732.b82a55b9.chunk.js.map": "/new-bjp-cell/static/js/732.b82a55b9.chunk.js.map",
+    "453.ce944235.chunk.js.map": "/new-bjp-cell/static/js/453.ce944235.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.56fe4e59.css",
-    "static/js/main.18037b68.js"
+    "static/css/main.a12ece5c.css",
+    "static/js/main.aa9e362b.js"
   ]
 }
