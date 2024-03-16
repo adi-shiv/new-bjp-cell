@@ -6,6 +6,7 @@ import Main from '../Components/Main'
 import Footer from '../Components/Footer'
 
 
+
 function HomePage() {
   return (
     <div className='Home_Page'>
@@ -14,7 +15,6 @@ function HomePage() {
      <Main />
      <WhoWeAre />
      <Footer />
-
     </div>
   )
 }

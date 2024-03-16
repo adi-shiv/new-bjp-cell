@@ -1,71 +1,81 @@
-import React  from "react";
-import ad from '../images/images/logo.png'
+import React, { Component } from "react";
+import html2canvas from "html2canvas";
+import jsPDF from "jspdf";
+import "./Registration.css";
+import ad from "../images/images/logo.png";
 import ani from "../images/images/sign.png";
-import './Registration.css';
-import { jsPDF } from "jspdf";
 
-function Registration() {
-
-  const jspdf = new jsPDF ('p','pt','letter')
-
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    const val = e.target.adi.valve;
-
-    const data = {
-      callback:function(jspdf){
-        jspdf.save('demo.pdf')
-      },
-      margin:[10,10,10,10],
-    }
-    jspdf.html(val,data)
+export default class Export extends Component {
+  constructor(props) {
+    super(props);
   }
 
- 
-  return (
-    <>
-      <div className="adi" name="adi">
-       
-        <form onSubmit={(e)=>handleSubmit(e)} >
-           
-        <h2>MEMBERSHIP ID</h2>
+  printDocument() {
+    const input = document.getElementById("divToPrint");
+    html2canvas(input).then((canvas) => {
+      const imgData = canvas.toDataURL("image/png");
+      const pdf = new jsPDF();
+      pdf.addImage(imgData, "JPEG", 10, 20, 190, 100);
+      // pdf.output('dataurlnewwindow');
+      pdf.save("download.pdf");
+    });
+  }
 
-          <label >Name:</label>
-          <input type="text" id="Name" name="Name" required />
-          <br />
-
-          <label>Number:</label>
-          <input type="phoneNumber" id="Phone Number" name="Phone Number" required />
-          <br />
-          <label>Email:</label>
-          <input type="email" id="email" name="email" required />
-          <br />
-          <label>Age:</label>
-          <input type="number" id="Number" name="Number" required />
-          <br />
-          <label>Qualification:</label>
-          <input type="text" id="text" name="text" required />
-          <br />
-          <label>Address:</label>
-          <textarea type='address' name="Address" id="Address" cols="30" rows="1"></textarea>
-           
-           <br />
-          <div>
-            <button className="new" type="submit" >
-              Submit
-            </button>
+  render() {
+    return (
+      <div>
+        <div id="divToPrint" className="mt4">
+          <div className="mem">
+            <h2>MEMBERSHIP ID</h2>
           </div>
-        </form>
+          <div className="adi">
+            <form>
+              <label>Name:</label>
+              <input type="text" id="Name" name="Name" required />
+              <br />
+              <label>Number:</label>
+              <input
+                type="Phone Number"
+                id="Phone Number"
+                name="Phone Number"
+                required
+              />
+              <br />
+              <label>Email:</label>
+              <input type="email" id="email" name="email" required />
+              <br />
+              <label>Age:</label>
+              <input type="Number" id="Number" name="Number" required />
+              <br />
+              <label>Qualification:</label>
+              <input type="text" id="text" name="text" required />
+              <br />
+              <label>Address:</label>
+              <textarea
+                name="Address"
+                id="Address"
+                cols="30"
+                rows="1"
+              ></textarea>
+            </form>
 
-        <div id='ad'>
-          <img src={ad} alt="" />
+            <div className="logo-img">
+              <div id="ad">
+                <img src={ad} />
+              </div>
+
+              <div id="ani">
+                <img src={ani} />
+              </div>
+            </div>
+          </div>
         </div>
-        <div id="ani" >
-          <img src={ani} alt="" />
+        <div className="print-btn">
+          <button className="print" onClick={this.printDocument}>
+            Submit
+          </button>
         </div>
       </div>
-    </>
-  );
+    );
+  }
 }
-
-export default Registration;
