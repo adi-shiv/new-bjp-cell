@@ -5,6 +5,10 @@
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
+body::-webkit-scrollbar {
+  display: none;
+}
+
 body,
 html {
   overflow-x: hidden;
@@ -18,7 +22,7 @@ html {
   justify-content: space-between;
   align-items: center;
   align-content: center;
-
+  /* background-color: #f3bf4f; */
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
   position: relative;
 }
@@ -43,7 +47,7 @@ html {
   color: #e97f15;
   font-size: 18px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 15px;
 }
 
@@ -107,7 +111,7 @@ html {
   .logo-heading {
     left: 1rem;
     color: #e97f15;
-    font-size: 18px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 800;
     line-height: 20px;
@@ -129,7 +133,7 @@ html {
 }
 
 .footer .pre_footer h4 {
-  color: black;
+  color: rgb(253, 118, 7);
   margin-bottom: 2vmin;
   font-size: 3vmin;
   font-weight: 600;
@@ -138,7 +142,7 @@ html {
 }
 
 .footer .pre_footer p {
-  color: black;
+  color: rgb(124, 62, 3);
   margin: 0 0 0.5vmin 0;
   letter-spacing: 0.5px;
 }
@@ -232,7 +236,7 @@ html {
   text-decoration: none;
   color: #f7f5f5;
   font-size: 5vmin;
-  color: rgb(26, 25, 25);
+  color: rgb(110, 61, 4);
 }
 
 .footer .pre_footer .socials a i {
@@ -328,13 +332,13 @@ html {
 
 .whychooseus_container {
   padding: 10vmin 20vmin 10vmin 20vmin;
-  background-color: #d1985f;
+  background-color: #ffffff;
 }
 
 .whychooseus_container .whychooseus_heading h1 {
   font-size: 5.8vmin;
   font-weight: 700;
-  color: black;
+  color: rgb(253, 153, 4);
   letter-spacing: 1px;
   margin: 0 0 2vmin 0;
   padding-bottom: 0vmin;
@@ -372,7 +376,7 @@ html {
 }
 
 .whychooseus_container .whychooseus_content_text h3 {
-  color: #2e2d2d;
+  color: #fa7407;
   font-size: 2.9vmin;
   letter-spacing: 0.5px;
   font-weight: 600;
@@ -380,7 +384,7 @@ html {
 }
 
 .whychooseus_container .whychooseus_content_text p {
-  color: #3b3a3a;
+  color: #723f04;
   font-size: 2.2vmin;
   letter-spacing: 0.5px;
   font-weight: 400;
@@ -488,7 +492,7 @@ html {
 
 .whoweare_container {
   padding: 10vmin 20vmin 7vmin 20vmin;
-  background-color: #e4c19f;
+  background-color: #d8d2cf;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -501,7 +505,7 @@ html {
 .whoweare_container .whoweare_content h1 {
   font-size: 5.5vmin;
   font-weight: 600;
-  color: black;
+  color: rgb(252, 106, 9);
   letter-spacing: 1px;
   margin: 0 0 2vmin 0;
   padding-bottom: 0vmin;
@@ -512,7 +516,7 @@ html {
 
 .whoweare_container .whoweare_content p {
   margin: 2vmin 0 3vmin 0;
-  color: #222121;
+  color: #883f03;
   font-size: 2.5vmin;
   letter-spacing: 0.5px;
   font-weight: 400;

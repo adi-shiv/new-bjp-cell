@@ -1,8 +1,8 @@
 import { Carousel } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Carousel1 from '../images/images/Honble Union Home.jpg';
-import Carousel2 from '../images/images/know_the_pm (1).jpg';
-import Carousel3 from '../images/images/group (2).jpg';
+import Carousel1 from '../images/images/shivaji (2) (1).jpg';
+import Carousel2 from '../images/images/H20240112149561 (1).jpg';
+import Carousel3 from '../images/images/H202401121496067.jpg';
 import React from 'react'
 
 function HeroCarousel() {
