@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/new-bjp-cell/static/css/main.6ab2a644.css",
-    "main.js": "/new-bjp-cell/static/js/main.9fad4ace.js",
-    "static/js/239.081d5bf5.chunk.js": "/new-bjp-cell/static/js/239.081d5bf5.chunk.js",
+    "main.css": "/new-bjp-cell/static/css/main.3a12338a.css",
+    "main.js": "/new-bjp-cell/static/js/main.2e67fa2b.js",
     "static/js/213.9e25de55.chunk.js": "/new-bjp-cell/static/js/213.9e25de55.chunk.js",
     "static/js/732.b82a55b9.chunk.js": "/new-bjp-cell/static/js/732.b82a55b9.chunk.js",
     "static/js/453.ce944235.chunk.js": "/new-bjp-cell/static/js/453.ce944235.chunk.js",
@@ -14,15 +13,14 @@
     "static/media/download.jpg": "/new-bjp-cell/static/media/download.271f5b825da57679ea98.jpg",
     "static/media/sign.png": "/new-bjp-cell/static/media/sign.6445c6f2d11b6c222f2f.png",
     "index.html": "/new-bjp-cell/index.html",
-    "main.6ab2a644.css.map": "/new-bjp-cell/static/css/main.6ab2a644.css.map",
-    "main.9fad4ace.js.map": "/new-bjp-cell/static/js/main.9fad4ace.js.map",
-    "239.081d5bf5.chunk.js.map": "/new-bjp-cell/static/js/239.081d5bf5.chunk.js.map",
+    "main.3a12338a.css.map": "/new-bjp-cell/static/css/main.3a12338a.css.map",
+    "main.2e67fa2b.js.map": "/new-bjp-cell/static/js/main.2e67fa2b.js.map",
     "213.9e25de55.chunk.js.map": "/new-bjp-cell/static/js/213.9e25de55.chunk.js.map",
     "732.b82a55b9.chunk.js.map": "/new-bjp-cell/static/js/732.b82a55b9.chunk.js.map",
     "453.ce944235.chunk.js.map": "/new-bjp-cell/static/js/453.ce944235.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ab2a644.css",
-    "static/js/main.9fad4ace.js"
+    "static/css/main.3a12338a.css",
+    "static/js/main.2e67fa2b.js"
   ]
 }
