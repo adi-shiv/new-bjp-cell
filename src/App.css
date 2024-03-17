@@ -57,6 +57,7 @@ html {
   background-color: #eb8f17;
   border: none;
   outline: none;
+  border-radius: 5px;
   color: #ffffff;
   cursor: pointer;
   margin: auto 50px;
@@ -90,6 +91,7 @@ html {
     color: #f87f0e;
     cursor: pointer;
     margin: auto 2px;
+    border-radius: 5px;
   }
 
   .header .logo {
@@ -117,217 +119,6 @@ html {
     line-height: 20px;
     padding: 20px;
   }
-}
-
-/* footer start */
-
-.footer .pre_footer {
-  padding: 8vmin 10vmin 6vmin 8vmin;
-  /* background-color: var(--secondary); */
-  background-color: #f3bf4f;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  align-content: center;
-}
-
-.footer .pre_footer h4 {
-  color: rgb(253, 118, 7);
-  margin-bottom: 2vmin;
-  font-size: 3vmin;
-  font-weight: 600;
-  letter-spacing: 0.8px;
-  text-align: start;
-}
-
-.footer .pre_footer p {
-  color: rgb(124, 62, 3);
-  margin: 0 0 0.5vmin 0;
-  letter-spacing: 0.5px;
-}
-
-.footer .pre_footer p a {
-  text-decoration: none;
-  color: var(--longtext);
-  margin: 0 0 0.5vmin 0;
-  letter-spacing: 0.5px;
-}
-
-.footer .pre_footer p i {
-  margin-right: 1vmin;
-}
-
-.footer .pre_footer p a:hover {
-  color: var(--primary);
-}
-
-.footer .pre_footer .primary_school {
-  width: 25%;
-}
-
-.footer .pre_footer .high_school {
-  width: 25%;
-}
-
-.footer .pre_footer .contact {
-  width: 25%;
-}
-
-/* ====== Main Footer ====== */
-
-.footer .main_footer {
-  text-align: center;
-  border: 1px solid var(--primary);
-  background-color: #e97f15;
-}
-
-.footer .main_footer p {
-  color: black;
-  background-color: #e97f15;
-  padding: 15px 0;
-  font-size: 2vmin;
-  letter-spacing: 0.7px;
-  font-weight: 400;
-}
-
-.footer .main_footer p a {
-  text-decoration: none;
-  color: var(--theme);
-}
-
-.footer .pre_footer form {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
-
-.footer .pre_footer form #tn {
-  background-color: #e97f15;
-  width: 80%;
-  height: 30px;
-  color: #fff;
-  outline: none;
-  border: none;
-  padding: auto;
-}
-
-.footer .pre_footer form input {
-  height: 30px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  right: 10px;
-}
-
-.footer .pre_footer .socials {
-  width: 35vmin;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  /* align-items: center; */
-  align-content: center;
-  background-color: none;
-  transition: all 0.3s;
-  margin: auto 10px;
-}
-
-.footer .pre_footer .socials a {
-  text-decoration: none;
-  color: #f7f5f5;
-  font-size: 5vmin;
-  color: rgb(110, 61, 4);
-}
-
-.footer .pre_footer .socials a i {
-  transition: all 0.3s;
-}
-
-.footer .pre_footer .socials a i:hover {
-  color: #ec7504;
-}
-
-/* ====== Media Quries ====== */
-
-@media (max-width: 767px) {
-  /* ====== Pre Footer ====== */
-
-  .footer .pre_footer {
-    align-items: center;
-    padding: 8vmin;
-    flex-direction: column;
-  }
-
-  .footer .pre_footer .quick_links {
-    margin-bottom: 5vmin;
-  }
-
-  .footer .pre_footer h4 {
-    margin-bottom: 1.2vmin;
-    font-size: 4vmin;
-    text-align: center;
-  }
-
-  .footer .pre_footer p {
-    font-size: 3.1vmin;
-    text-align: center;
-  }
-
-  .footer .pre_footer p a {
-    font-size: 3.1vmin;
-    text-align: center;
-  }
-
-  .footer .pre_footer .primary_school {
-    width: 100%;
-    margin-bottom: 4vmin;
-  }
-
-  .footer .pre_footer .high_school {
-    width: 100%;
-    margin-bottom: 4vmin;
-  }
-
-  .footer .pre_footer .contact {
-    width: 100%;
-    margin-bottom: 4vmin;
-  }
-
-  /* ====== Main Footer ====== */
-
-  .footer .main_footer p {
-    padding: 2.5vmin 5vmin;
-    font-size: 3vmin;
-  }
-  .footer .pre_footer .socials {
-    width: 35vmin;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
-    background-color: none;
-    transition: all 0.3s;
-    margin: auto 50px;
-  }
-
-  .footer .pre_footer .socials a {
-    text-decoration: none;
-    color: #FFFFFF;
-    color: rgb(15, 15, 15);
-
-    font-size: 6vmin;
-  }
-
-  .footer .pre_footer .socials a i {
-    transition: all 0.3s;
-  }
-
-  .footer .pre_footer .socials a i:hover {
-    color: #fa9005;
-  }
-
-
 }
 
 .whychooseus_container {
@@ -391,7 +182,7 @@ html {
   text-align: justify;
 }
 
-.know-btn {
+/* .know-btn {
   right: 20rem;
   top: 30rem;
   border: none;
@@ -401,7 +192,7 @@ html {
   height: 40px;
   color: #fff;
   font-size: 17px;
-}
+} */
 
 /* .whychooseus_container .read_more_btn a {
   text-decoration: none;
@@ -478,7 +269,7 @@ html {
   }
 }
 
-.ReadMore {
+/* .ReadMore {
   right: 20rem;
   top: 30rem;
   border: none;
@@ -488,7 +279,7 @@ html {
   height: 40px;
   color: #fff;
   font-size: 17px;
-}
+} */
 
 .whoweare_container {
   padding: 10vmin 20vmin 7vmin 20vmin;

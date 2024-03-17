@@ -1,6 +1,7 @@
 import React from "react";
 // import { FaInstagram, FaFacebook, FaTwitter } from "react-icons/fa";
 import AOS from "aos";
+import "./footer.css";
 import "aos/dist/aos.css";
 AOS.init();
 
@@ -51,7 +52,7 @@ function Footer() {
             <form>
               <input type="email" placeholder="Email address" required />
               <br /> <br />
-              <button id="tn">Submit</button>
+              <button className="quick-btn">Submit</button>
             </form>
 
             <div className="socials">
@@ -64,7 +65,6 @@ function Footer() {
               <a href="/">
                 <i class="ri-instagram-fill"></i>
               </a>
-             
             </div>
           </div>
         </div>

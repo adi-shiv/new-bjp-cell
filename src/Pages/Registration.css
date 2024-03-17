@@ -29,8 +29,7 @@
   font-size: 30px;
   font-weight: 600;
 }
-
-form {
+.red {
   margin: 18rem 3rem;
 }
 
@@ -83,6 +82,9 @@ textarea {
   background-color: orange;
   outline: none;
   border: none;
-  width: 5%;
-  margin: 10px 200px;
+  width: 15%;
+  height: 4vmin;
+  margin: 200px;
+  margin-top: 2rem;
+  border-radius: 5px;
 }

@@ -29,7 +29,7 @@ export default class Export extends Component {
             <h2>MEMBERSHIP ID</h2>
           </div>
           <div className="adi">
-            <form>
+            <form className="red">
               <label>Name:</label>
               <input type="text" id="Name" name="Name" required />
               <br />
